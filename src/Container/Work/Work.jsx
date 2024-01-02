@@ -14,21 +14,21 @@ const Work = () => {
       title: "MERN STACK",
       description: "Amazon Clone",
       img: amazon,
-      deployLink: "http://13.48.70.125:8001",
+      deployLink: "http://16.171.160.72:8001",
       gitLink: "https://github.com/edith131299/Copy-Amazon-Website.git",
     },
     {
       title: "MERN STACK",
       description: "Shofify Clone",
       img: shopify,
-      deployLink: "http://13.48.70.125:8000",
+      deployLink: "http://13.51.169.22:8000",
       gitLink: "https://github.com/edith131299/BuyZone.git",
     },
   ];
 
   return (
     <section className="h-screen flex flex-col justify-center items-center max-[450px]:h-full ">
-      <h2 className="mt-8  mb-8 text-4xl font-extrabold text-center text-stone-950 capitalize max-[2000px]:text-3xl min-[450px]:text-2xl  max-[450px]:mt-8 max-[450px]:h-full ">
+      <h2 className="mt-8  mb-8 text-5xl font-extrabold text-center text-stone-950 capitalize  max-[450px]:text-2xl  max-[450px]:mt-8 max-[450px]:h-full ">
         My Creative <span className="text-secondary">Portofolio </span>Section
       </h2>
 
