@@ -10,29 +10,29 @@ import { motion } from "framer-motion";
 const About = () => {
   const about = [
     {
-      title: "Web Development",
-      description: "Iam a good web developer",
+      title: "SAP BASIS",
+      description: "2+ year exprience in BASIS",
       img: about1,
     },
     {
-      title: "Web Development",
-      description: "Iam a good web developer",
+      title: "SAP Security",
+      description: "1+ year exprience in Security",
       img: about2,
     },
     {
-      title: "Web Development",
-      description: "Iam a good web developer",
+      title: "MERN STACK",
+      description: "Learning MERN STACK",
       img: about3,
     },
     {
-      title: "Web Development",
-      description: "Iam a good web developer",
+      title: "TAILWIND",
+      description: "Learning Tailwind CSS ",
       img: about4,
     },
   ];
 
   return (
-    <div className="py-16 w-full flex flex-col flex-1 h-full px-8 bg-white">
+    <div id="About" className="py-16 w-full flex flex-col flex-1 h-full px-8 bg-white">
       <h2 className="text-5xl font-sans  font-extrabold text-center text-stone-950 capitalize min-[2000px]:text-5xl max-[450px]:text-2xl">
         I know that <span className="text-secondary">Good App</span> <br />
         means <span className="text-secondary">Good Business</span>
@@ -44,16 +44,16 @@ const About = () => {
               whileInView={{ opacity: 1 }}
               whileHover={{ scale: 1.1 }}
               transition={{ duration: 0.5, type: "tween" }}
-              className="w-48 flex justify-start items-start flex-col m-8 min-[2000px]:w-96 min-[2000px]:my-8 min-[2000px]:mx-16"
+              className="w-48 flex justify-start items-center flex-col m-8 min-[2000px]:w-96 min-[2000px]:my-8 min-[2000px]:mx-16"
               key={index}
             >
               <img
                 className="w-full h-44 rounded-2xl object-cover min-[2000px]:h-80 "
                 src={item.img}
-                alt-={item.title}
+                alt={item.title}
               />
               <h2
-                className="text-base font-extrabold text-stone-950 text-left min-[2000px]:text-4xl max-[450px]:text-sm"
+                className="uppercase text-base font-extrabold text-stone-950 text-left min-[2000px]:text-4xl max-[450px]:text-sm"
                 style={{ marginTop: "20px" }}
               >
                 {item.title}

@@ -31,6 +31,7 @@ const Header = () => {
       className="w-full h-full pt-24 px-8 pb-0 // flex flex- items-start justify-center // releative bg-repeat bg-cover bg-center //
      min-[2000px]:pt-32  max-[1200px]:items-center max-[1200px]:flex-col max-[450px]:pt-24 max-[450px]:pr-4 max-[450px]:pb-8  "
       style={{ backgroundImage: `url(${bg})`, flex: "1" }}
+      id="Home"
     >
       <motion.div
         whileInView={{ x: [-100, 0], opacity: [0, 1] }}
@@ -39,7 +40,7 @@ const Header = () => {
         style={{ flex: "0.65" }}
       >
         <div className=" flex flex-col justify-end items-end // w-full max-[1200px]:justify-start max-[1200px]:items-start  ">
-          <div className="flex items-center justify-center // py-4 px-8 //  rounded-2xl bg-white-color shadow-[0px_0px_20px_rgba(0,0,0,0.1)] ">
+          <div className="flex items-center justify-center // py-4 px-8  max-sm:px-6 //  rounded-2xl bg-white-color shadow-[0px_0px_20px_rgba(0,0,0,0.1)] ">
             <span className="mx-3 text-4xl max-[2000px]:text-6xl">👋</span>
 
             <div className="py-2">
@@ -49,8 +50,8 @@ const Header = () => {
           </div>
 
           <div className=" mt-12 w-auto // py-4 px-8 // // flex flex-col items-end justify-end  // rounded-2xl bg-white-color shadow-[0px_0px_20px_rgba(0,0,0,0.1)] ">
+            <p className="w-full uppercase text-right">SAP Consultant </p>
             <p className="w-full uppercase text-right">Web Developer</p>
-            <p className="w-full uppercase text-right">SAP </p>
           </div>
         </div>
       </motion.div>

@@ -4,7 +4,6 @@ import { motion } from "framer-motion";
 
 import amazon from "../../Assets/Amazon-copy.png";
 import shopify from "../../Assets/Shopify.png";
-import about4 from "../../Assets/about04.png";
 
 import { AiFillEye, AiFillGithub } from "react-icons/ai";
 
@@ -27,7 +26,10 @@ const Work = () => {
   ];
 
   return (
-    <section className="h-screen flex flex-col justify-center items-center max-[450px]:h-full ">
+    <section
+      id="Work"
+      className="h-screen flex flex-col justify-center items-center max-[450px]:h-full "
+    >
       <h2 className="mt-8  mb-8 text-5xl font-extrabold text-center text-stone-950 capitalize  max-[450px]:text-2xl  max-[450px]:mt-8 max-[450px]:h-full ">
         My Creative <span className="text-secondary">Portofolio </span>Section
       </h2>
@@ -58,7 +60,7 @@ const Work = () => {
                   }}
                   className="flex justify-center items-center absolute top-0 l-0 r-0 l-0 w-full h-full bg-black bg-opacity-50 rounded-lg transition-all duration-300 ease-in opacity-0"
                 >
-                  <a href={item?.deployLink} target="_blank">
+                  <a href={item?.deployLink} target="_blank" rel="noreferrer">
                     <motion.div
                       whileInView={{ scale: [0, 1] }}
                       whileHover={{ scale: [1, 0.9] }}
@@ -68,7 +70,7 @@ const Work = () => {
                       <AiFillEye className="w-3/6 h-3/6 text-white " />
                     </motion.div>
                   </a>
-                  <a href={item?.gitLink} target="_blank">
+                  <a href={item?.gitLink} target="_blank" rel="noreferrer">
                     <motion.div
                       whileInView={{ scale: [0, 1] }}
                       whileHover={{ scale: [1, 0.9] }}

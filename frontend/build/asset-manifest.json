@@ -1,28 +1,41 @@
 {
   "files": {
-    "main.css": "/static/css/main.abf0ff4d.css",
-    "main.js": "/static/js/main.350fde43.js",
+    "main.css": "/static/css/main.9c64d5cc.css",
+    "main.js": "/static/js/main.74c56dbc.js",
     "static/media/Shopify.png": "/static/media/Shopify.d3bec871f18f5052375a.png",
     "static/media/about04.png": "/static/media/about04.fa7b3a72ed32b0e25bfb.png",
     "static/media/about02.png": "/static/media/about02.7a3df03410ee756268ec.png",
     "static/media/about01.png": "/static/media/about01.080509de05322b7aafda.png",
     "static/media/bgWhite.png": "/static/media/bgWhite.79658cadae50b3b16ee5.png",
     "static/media/profile.png": "/static/media/profile.ee489764521abe34026b.png",
+    "static/media/onepiece-1.png": "/static/media/onepiece-1.67d9ab6dab0be63b46ad.png",
+    "static/media/wakanda.png": "/static/media/wakanda.909af78258a723a9f7c8.png",
     "static/media/about03.png": "/static/media/about03.c26c2547bb1a423cf283.png",
     "static/media/Amazon-copy.png": "/static/media/Amazon-copy.8b9121c0e6c74e5d48c7.png",
+    "static/media/GOT.png": "/static/media/GOT.eb4447346de374f56df5.png",
+    "static/media/tomjerry.png": "/static/media/tomjerry.903bcbd3431c20e25f4e.png",
+    "static/media/Breaking-Bad.png": "/static/media/Breaking-Bad.31e3750e79f04e1d4b4b.png",
+    "static/media/boy.png": "/static/media/boy.12de710db2020b74549e.png",
+    "static/media/mongo.png": "/static/media/mongo.fe565d4c5fa3afe2547a.png",
+    "static/media/joker.png": "/static/media/joker.0659d8d126b0e5388510.png",
+    "static/media/hat.png": "/static/media/hat.195d901fa6e3f6f12e82.png",
+    "static/media/tailwind.png": "/static/media/tailwind.66150d145743d4871cfe.png",
     "static/media/redux.png": "/static/media/redux.c9be37e0fece29c624b0.png",
     "static/media/node.png": "/static/media/node.8683d89cf78ffae3d1f7.png",
     "static/media/mobile.png": "/static/media/mobile.145d9ce0157a56f8fcd8.png",
+    "static/media/batman.png": "/static/media/batman.73e0a55a283bda759d79.png",
     "static/media/email.png": "/static/media/email.37b9e890eea501421fbf.png",
+    "static/media/micky.png": "/static/media/micky.aefa7323be9a9ac44214.png",
+    "static/media/express-js.png": "/static/media/express-js.9b344d7469dbbdc76754.png",
     "static/media/css.png": "/static/media/css.5721a3928fe43de6baf8.png",
     "static/media/git.png": "/static/media/git.a54d3fa44e02f2f61e69.png",
     "index.html": "/index.html",
     "static/media/circle.svg": "/static/media/circle.134eeeb1e58895b892195fe8ed63bc9f.svg",
-    "main.abf0ff4d.css.map": "/static/css/main.abf0ff4d.css.map",
-    "main.350fde43.js.map": "/static/js/main.350fde43.js.map"
+    "main.9c64d5cc.css.map": "/static/css/main.9c64d5cc.css.map",
+    "main.74c56dbc.js.map": "/static/js/main.74c56dbc.js.map"
   },
   "entrypoints": [
-    "static/css/main.abf0ff4d.css",
-    "static/js/main.350fde43.js"
+    "static/css/main.9c64d5cc.css",
+    "static/js/main.74c56dbc.js"
   ]
 }
