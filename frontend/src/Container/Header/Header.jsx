@@ -28,7 +28,7 @@ const Header = () => {
 
   return (
     <div
-      className="w-full h-full pt-24 px-8 pb-0 // flex flex- items-start justify-center // releative bg-repeat bg-cover bg-center //
+      className="w-full h-full pt-32 px-8 pb-0  // flex flex- items-start justify-center // releative bg-repeat bg-cover bg-center //
      min-[2000px]:pt-32  max-[1200px]:items-center max-[1200px]:flex-col max-[450px]:pt-24 max-[450px]:pr-4 max-[450px]:pb-8  "
       style={{ backgroundImage: `url(${bg})`, flex: "1" }}
       id="Home"
