@@ -13,14 +13,14 @@ const Work = () => {
       title: "MERN STACK",
       description: "Amazon Clone",
       img: amazon,
-      deployLink: "http://16.171.160.72:8001",
+      deployLink: "https://amazon-clone-ypm6.onrender.com/",
       gitLink: "https://github.com/edith131299/Copy-Amazon-Website.git",
     },
     {
       title: "MERN STACK",
       description: "Shofify Clone",
       img: shopify,
-      deployLink: "http://13.51.169.22:8000",
+      deployLink: "https://buyzone-gjb5.onrender.com/",
       gitLink: "https://github.com/edith131299/BuyZone.git",
     },
   ];

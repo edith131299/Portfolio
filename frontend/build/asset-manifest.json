@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.4c20c700.css",
-    "main.js": "/static/js/main.469e7ce4.js",
+    "main.js": "/static/js/main.15cb9fff.js",
     "static/media/Shopify.png": "/static/media/Shopify.d3bec871f18f5052375a.png",
     "static/media/about04.png": "/static/media/about04.fa7b3a72ed32b0e25bfb.png",
     "static/media/about02.png": "/static/media/about02.7a3df03410ee756268ec.png",
@@ -32,10 +32,10 @@
     "index.html": "/index.html",
     "static/media/circle.svg": "/static/media/circle.134eeeb1e58895b892195fe8ed63bc9f.svg",
     "main.4c20c700.css.map": "/static/css/main.4c20c700.css.map",
-    "main.469e7ce4.js.map": "/static/js/main.469e7ce4.js.map"
+    "main.15cb9fff.js.map": "/static/js/main.15cb9fff.js.map"
   },
   "entrypoints": [
     "static/css/main.4c20c700.css",
-    "static/js/main.469e7ce4.js"
+    "static/js/main.15cb9fff.js"
   ]
 }
