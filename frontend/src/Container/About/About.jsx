@@ -10,29 +10,29 @@ import { motion } from "framer-motion";
 const About = () => {
   const about = [
     {
-      title: "SAP BASIS",
-      description: "2+ year exprience in BASIS",
+      title: "Java Script",
+      // description: "2+ year exprience in BASIS",
       img: about1,
     },
     {
-      title: "SAP Security",
-      description: "1+ year exprience in Security",
+      title: "React",
+      // description: "1+ year exprience in Security",
       img: about2,
     },
     {
-      title: "MERN STACK",
-      description: "Learning MERN STACK",
+      title: "Express JS",
+      // description: "Learning MERN STACK",
       img: about3,
     },
     {
       title: "TAILWIND",
-      description: "Learning Tailwind CSS ",
+      // description: "Learning Tailwind CSS ",
       img: about4,
     },
   ];
 
   return (
-    <div id="About" className="py-16 w-full flex flex-col flex-1 h-full px-8 bg-white">
+    <div id="About" className=" pt-20 w-full flex flex-col flex-1 h-full px-8 bg-white">
       <h2 className="text-5xl font-sans  font-extrabold text-center text-stone-950 capitalize min-[2000px]:text-5xl max-[450px]:text-2xl">
         I know that <span className="text-secondary">Good App</span> <br />
         means <span className="text-secondary">Good Business</span>

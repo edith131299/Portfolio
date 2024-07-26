@@ -50,7 +50,7 @@ const Header = () => {
           </div>
 
           <div className=" mt-12 w-auto // py-4 px-8 // // flex flex-col items-end justify-end  // rounded-2xl bg-white-color shadow-[0px_0px_20px_rgba(0,0,0,0.1)] ">
-            <p className="w-full uppercase text-right">SAP Consultant </p>
+            {/* <p className="w-full uppercase text-right">SAP Consultant </p> */}
             <p className="w-full uppercase text-right">Web Developer</p>
           </div>
         </div>
